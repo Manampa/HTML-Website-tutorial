@@ -73,6 +73,12 @@ li {
     
 }
 
+#About,
+#Discord,
+#Contact {
+    padding: 48px 0;
+    
+}
 /*
 
 About
@@ -80,7 +86,6 @@ About
  */
 
 #About {
-    padding: 48px 0;
     background-color: #f8ffdc;
 
 }
@@ -126,4 +131,11 @@ About
  Discord 14:50
 
   */
+
+  #Discord {
+    padding: 48px 0;
+    background-color: #cefeff;
+  }
+
+
   
