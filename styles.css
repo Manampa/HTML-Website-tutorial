@@ -148,6 +148,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 input,
@@ -207,8 +208,38 @@ footer {
   }
 
   /* DO NOT     EVER     DISPLAY:NONE; THE "UL"
-   USUALLY IT WILL BE A BURGER!!!  */
+   USUALLY IT WILL BE A BURGER!!!3:30  */ 
   ul {
     display: none;
   }
+  .section__description {
+    flex-direction: column;
+  }
+  .section__description--wrapper {
+    width: 100%;
+  }
+  .About__img--wrapper {
+    width: 100%;
+  }
+  #Discord .section__description {
+    flex-direction: column-reverse;
+
+  }
+  footer {
+    padding:48px 24px;
+  }
+  .Footer__logo {
+    max-width: 360px;
+
+  }
+  .Footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+  .Footer__links {
+    margin-bottom: 24px;
+  }
+
 }
+
+
